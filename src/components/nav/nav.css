@@ -1,0 +1,60 @@
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items {
+    order: 2;
+    display: flex;
+}
+
+.logo {
+    margin-left: -60px;
+    order: 1;
+
+}
+
+.menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 15px;
+}
+
+.navbar a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn {
+    margin-top: -10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(50, 132, 219);
+    color: white;
+    cursor: pointer;
+
+}

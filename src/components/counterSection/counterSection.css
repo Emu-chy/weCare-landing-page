@@ -1,0 +1,28 @@
+.counter-section {
+    background-color: white;
+    margin-top: -55px;
+    display: flex;
+    width: 60%;
+    margin-left: 600px;
+}
+
+.inner-counter-section {
+    display: flex;
+    margin-left: 140px;
+    text-align: center;
+
+}
+
+.inner-div {
+    margin-right: 35px;
+}
+
+.inner-div h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(30, 149, 223);
+}
+
+.inner-div p {
+    margin-top: -20px;
+}
